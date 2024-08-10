@@ -39,7 +39,14 @@
 		</repository>
   	</distributionManagement>
 	
-	<pluginRepositories>
+	<pluginRepositories> <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.5.1</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
 	    <pluginRepository>    
 		<id>maven1</id>
 		<name>Maven.org</name>
